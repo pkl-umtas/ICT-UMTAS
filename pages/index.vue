@@ -57,21 +57,21 @@ export default {
           image: project1,
           link: 'https://simpeg.umtas.ac.id/',
           desc: 'Sistem Informasi Kepegawaian Universitas Muhammadiyah Tasikmalaya.',
-          detailLink: '/project/lazismu'
+          detailLink: '/Ict/detail-project/simpeg'
         },
         {
           title: 'SIKEMAS UMTAS',
           image: project2,
           link: 'https://sikemas.umtas.ac.id/',
           desc: 'Sistem Informasi kemahasiswaan Universitas Muhammadiyah Tasikmalaya',
-          detailLink: '/project/lms'
+          detailLink: '/Ict/detail-project/sikemas'
         },
         {
           title: 'SIMUTU UMTAS',
           image: project3,
           link: 'https://simutu.umtas.ac.id/',
           desc: 'Sistem Informasi Penjaminan Mutu Universitas Muhammadiyah Tasikmalaya',
-          detailLink: '/project/pukau'
+          detailLink: '/Ict/detail-project/simutu'
         }
       ]
     }
