@@ -36,7 +36,6 @@
           <ul class="list-unstyled d-flex flex-column gap-2">
             <li><a href="https://www.kemdikbud.go.id/" target="_blank">Kemdikbud</a></li>
             <li><a href="https://dapo.dikdasmen.kemdikbud.go.id/" target="_blank">Dapodiknasmen</a></li>
-            <li><a href="https://psmk.kemdikbud.go.id/" target="_blank">PSMK</a></li>
             <li><a href="https://disdik.jabarprov.go.id/" target="_blank">Disdik Jabar</a></li>
           </ul>
         </div>
@@ -46,15 +45,15 @@
           <h5>Media Sosial</h5>
           <hr />
           <div class="d-flex flex-column gap-2">
-            <a href="https://www.facebook.com/" class="d-flex align-items-center gap-2">
+            <a href="https://www.facebook.com/umtascerdasberkualitas/" class="d-flex align-items-center gap-2">
               <i class="bi bi-facebook"></i>
               <h6 class="mb-0">Facebook</h6>
             </a>
-            <a href="https://www.instagram.com/smkn4tasikmalaya/#" class="d-flex align-items-center gap-2">
+            <a href="https://www.instagram.com/umtas/" class="d-flex align-items-center gap-2">
               <i class="bi bi-instagram"></i>
               <h6 class="mb-0">Instagram</h6>
             </a>
-            <a href="https://x.com/4smkn" class="d-flex align-items-center gap-2">
+            <a href="https://x.com/umtasik/" class="d-flex align-items-center gap-2">
               <i class="bi bi-twitter-x"></i>
               <h6 class="mb-0">Twitter</h6>
             </a>
