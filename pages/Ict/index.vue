@@ -1,110 +1,101 @@
 <template>
-    <div class="bg">
-        <div class="container">
-            <h4 class="mt-5">Project ICT</h4>
-            <div class="card rounded-2 mt-5">
-                <div class="card-body p-2 mt-1">
-                    <div class="row p-3">
-                        <div class="col-md-4 text-center">
-                            <img src="~/assets/img/project1.png" alt="logo">
-                        </div>
-                        <div class="col-md-8">
-                            <h5 class="fw-semibold">SIMPEG UMTAS</h5>
-                            <p class="mt-4">Sistem Informasi Kepegawaian Universitas Muhammadiyah Tasikmalaya</p>
-                        </div>
-                    </div>
-                </div>
+    <section class="py-5 bg-light">
+      <div class="container text-center">
+        <h2 class="mb-4">Project ICT</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4" v-for="project in projects" :key="project.title">
+            <div class="card h-100 shadow">
+              <img :src="project.image" class="card-img-top img-fluid" :alt="project.title" />
+              <div class="card-body text-start">
+                <h5 class="card-title">{{ project.title }}</h5>
+                <a :href="project.link" target="_blank" class="d-block mb-2 text-primary text-decoration-none">
+                  <i class="bi bi-box-arrow-up-right me-1"></i>{{ project.link }}
+                </a>
+                <p class="card-text">{{ project.desc }}</p>
+                <NuxtLink :to="project.detailLink" class="btn btn-primary">Detail</NuxtLink>
+              </div>
             </div>
-
-            <div class="card rounded-2 mt-4">
-                <div class="card-body p-2 mt-1">
-                    <div class="row p-3">
-                        <div class="col-md-4 text-center">
-                            <img src="~/assets/img/project2.png" alt="logo">
-                        </div>
-                        <div class="col-md-8">
-                            <h5 class="fw-semibold">SIKEMAS UMTAS</h5>
-                            <p class="mt-4">BSistem Informasi kemahasiswaan Universitas Muhammadiyah Tasikmalaya</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card rounded-2 mt-4">
-                <div class="card-body p-2 mt-1">
-                    <div class="row p-3">
-                        <div class="col-md-4 text-center">
-                            <img src="~/assets/img/project3.png" alt="logo">
-                        </div>
-                        <div class="col-md-8">
-                            <h5 class="fw-semibold">SIMUTU UMTAS</h5>
-                            <p class="mt-4">Sistem Informasi Penjaminan Mutu Universitas Muhammadiyah Tasikmalaya.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
-</template>
-
-<style scoped>
-h4,
-h5,
-p {
-    font-family: "Poppins", serif;
-}
-
-h4 {
-    margin-left: 100px;
-}
-
-.card {
+        <NuxtLink to="/project-lainnya" class="btn btn-primary mt-4">Lihat project lainnya</NuxtLink>
+      </div>
+    </section>
+  </template>
+  
+  <script>
+  import project1 from '@/assets/img/project1.png'
+  import project2 from '@/assets/img/project2.png'
+  import project3 from '@/assets/img/project3.png'
+  
+  export default {
+    name: 'ProjectICTPage',
+    data() {
+      return {
+        projects: [
+          {
+            title: 'SIMPEG UMTAS',
+            image: project1,
+            link: 'https://simpeg.umtas.ac.id/',
+            desc: 'Sistem Informasi Kepegawaian Universitas Muhammadiyah Tasikmalaya.',
+            detailLink: '/project/lazismu'
+          },
+          {
+            title: 'SIKEMAS UMTAS',
+            image: project2,
+            link: 'https://sikemas.umtas.ac.id/',
+            desc: 'Sistem Informasi kemahasiswaan Universitas Muhammadiyah Tasikmalaya',
+            detailLink: '/project/lms'
+          },
+          {
+            title: 'SIMUTU UMTAS',
+            image: project3,
+            link: 'https://simutu.umtas.ac.id/',
+            desc: 'Sistem Informasi Penjaminan Mutu Universitas Muhammadiyah Tasikmalaya',
+            detailLink: '/project/pukau'
+          }
+        ]
+      }
+    }
+  }
+  </script>
+  
+  <style scoped>
+  .card {
     background-color: transparent;
     backdrop-filter: blur(5px);
-    border: 2px solid #ffff;
+    border: 2px solid #fff;
     width: 85%;
     margin: auto;
-}
-
-img {
-    width: 300px;
-}
-
-p {
-    font-size: 15px;
-}
-
-.bg {
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  }
+  
+  .card-img-top {
     width: 100%;
-}
-
-@media only screen and (min-width: 600px) and (max-width: 890px) {
-    h4 {
-        margin-left: 30px;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-family: "Poppins", serif;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 15px;
+    font-family: "Poppins", serif;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 95%;
     }
-    
-}
-
-@media only screen and (max-width: 600px) {
-    p{
-        font-size: smaller;
+  
+    .card-title {
+      font-size: 1.1rem;
     }
-
-    h5 {
-        font-size: small;
-        margin-top: 20px;
+  
+    .card-text {
+      font-size: 0.9rem;
     }
-    
-    h4 {
-        margin-left: 35px;
-    }
-
-    img {
-        width: 30%;
-    }
-}
-</style>
+  }
+  </style>
