@@ -1,9 +1,13 @@
 <template>
     <div>
       <!-- Gambar Utama -->
-      <div class="container-fluid p-0 gambar">
-        <img src="/assets/img/umtas.png" class="img-fluid w-100" alt="Gambar Utama" />
-      </div>
+      <section class="gambar-utama position-relative text-center text-white">
+  <img src="/assets/img/umtas.png" class="img-fluid w-100" alt="Gambar Utama" />
+  <div class="overlay position-absolute top-50 start-50 translate-middle px-3 py-2 rounded text-wrap">
+    <h1 class="fw-bold fs-2 mb-2">Selamat Datang di Website Resmi</h1>
+    <h2 class="fw-bold fs-3">ICT UMTAS</h2>
+  </div>
+</section>
   
       <!-- Tentang Kami -->
       <section class="tentang-kami d-flex align-items-center text-center text-white">
@@ -81,6 +85,35 @@ export default {
 
   
   <style scoped>
+.gambar-utama {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.gambar-utama img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.gambar-utama::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Overlay gelap */
+  z-index: 1;
+}
+
+.gambar-utama .overlay {
+  background-color: rgba(17, 14, 169, 0.457); /* Hijau transparan */
+  z-index: 2;
+  /* border-radius: 0.5rem; */
+}
+
   .gambar img {
     object-fit: cover;
     height: auto;
