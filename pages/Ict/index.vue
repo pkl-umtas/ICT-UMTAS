@@ -17,7 +17,6 @@
             </div>
           </div>
         </div>
-        <NuxtLink to="/project-lainnya" class="btn btn-primary mt-4">Lihat project lainnya</NuxtLink>
       </div>
     </section>
   </template>
