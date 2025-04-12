@@ -7,7 +7,7 @@
                 <div class="card rounded-2 shadow">
                     <img src="~/assets/img/aset2.jpg" class="card-img-top rounded-2" alt="img-artikel">
                     <div class="card-body p-2 mt-1">
-                        <h6 class="text-center">Lapangan</h6>
+                        <h6 class="text-center">Foto 1</h6>
                     </div>
                 </div>
             </div>
@@ -15,7 +15,7 @@
                 <div class="card rounded-2 shadow">
                     <img src="~/assets/img/aset4.jpg" class="card-img-top rounded-2" alt="img-artikel">
                     <div class="card-body p-2 mt-1">
-                        <h6 class="text-center">Lapangan</h6>
+                        <h6 class="text-center">Foto 2</h6>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                 <div class="card rounded-2 shadow">
                     <img src="~/assets/img/aset.jpg" class="card-img-top rounded-2" alt="img-artikel">
                     <div class="card-body p-2 mt-1">
-                        <h6 class="text-center">Lapangan</h6>
+                        <h6 class="text-center">Foto 3</h6>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                 <div class="card rounded-2 shadow">
                     <img src="~/assets/img/aset3.jpg" class="card-img-top rounded-2" alt="img-artikel">
                     <div class="card-body p-2 mt-1">
-                        <h6 class="text-center">Lapangan</h6>
+                        <h6 class="text-center">Foto 4</h6>
                     </div>
                 </div>
             </div>
