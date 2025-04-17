@@ -31,7 +31,7 @@
           <div class="col-12 col-sm-6 col-md-4 mb-3" v-for="n in 2" :key="n">
             <div class="card card-data bg-light rounded-4 shadow h-100">
               <div class="card-body p-0 mb-3 text-center">
-                <img src="~/assets/img/user.jpeg" alt="img" class="foto-3x4 p-2 rounded-4" />
+                <img src="~/assets/img/user.jpg" alt="img" class="foto-3x4 p-2 rounded-4" />
                 <h6 class="fw-semibold mt-3">kepala teknisi</h6>
               </div>
             </div>
