@@ -13,9 +13,9 @@
           <div class="card bg-light rounded-4 h-100">
             <img src="~/assets/img/carosel.jpg" class="card-img-top p-2 rounded-4" alt="img-artikel" />
             <div class="card-body">
-              <p class="text-end">Kamis, 12 Okt 2023</p>
-              <h5 class="text-center mt-1">SMKN 4 Tasikmalaya Koneksikan Iduka dengan Pencari Kerja</h5>
-              <a href="https://radartasik.id/2023/10/12/smkn-4-tasikmalaya-koneksikan-iduka-dengan-pencari-kerja/" target="_blank">
+              <p class="text-end">Kamis, 17 Januari 2025</p>
+              <h5 class="text-center mt-1">Mahasiswa Prodi Sendratasik UMTAS menyelenggarakan SENTARAYA (Sendratasik Resital Pekan Raya)</h5>
+              <a href="https://www.umtas.ac.id/berita/mahasiswa-prodi-sendratasik-umtas-menyelenggarakan-sentaraya-sendratasik-resital-pekan-raya.html" target="_blank">
                 <p class="mt-4">Baca Selengkapnya <i class="bi bi-arrow-right-circle text-black"></i></p>
               </a>
             </div>
@@ -27,9 +27,9 @@
           <div class="card bg-light rounded-4 h-100">
             <img src="~/assets/img/carosel1.jpg" class="card-img-top p-2 rounded-4" alt="img-artikel" />
             <div class="card-body">
-              <p class="text-end">Senin, 20 Mei 2024</p>
-              <h5 class="text-center mt-1">Honda Resmikan Safety Riding Lab di SMKN 4 Tasikmalaya, Ciptakan Bibit Keselamatan di Jawa Barat</h5>
-              <a href="https://www.pikiran-rakyat.com/otomotif/pr-018109177/honda-resmikan-safety-riding-lab-di-smkn-4-tasikmalaya-ciptakan-bibit-keselamatan-pada-gen-z?page=all" target="_blank">
+              <p class="text-end">Senin, 6 Januari 2025</p>
+              <h5 class="text-center mt-1">Selamat kepada para Juara di Kejuaraan Pencak Silat BLAC (Bandung Lautan Api Championship) 2025</h5>
+              <a href="https://www.umtas.ac.id/berita/selamat-kepada-para-juara-di-kejuaraan-pencak-silat-blac-bandung-lautan-api-championship-2025.html" target="_blank">
                 <p class="mt-4">Baca Selengkapnya <i class="bi bi-arrow-right-circle text-black"></i></p>
               </a>
             </div>
@@ -39,11 +39,11 @@
         <!-- Berita 3 -->
         <div class="col-12 col-sm-10 col-md-6 col-lg-5 mb-4">
           <div class="card bg-light rounded-4 h-100">
-            <img src="~/assets/img/gambar-2.jpg" class="card-img-top p-2 rounded-4" alt="img-artikel" />
+            <img src="~/assets/img/milad.jpg" class="card-img-top p-2 rounded-4" alt="img-artikel" />
             <div class="card-body">
-              <p class="text-end">Senin 27 Feb 2023</p>
-              <h5 class="text-center mt-1">Siswa SMKN 4 Tasikmalaya Adu Inovasi dan Kreativitas di Expo Creanova</h5>
-              <a href="https://radartasik.id/2023/03/02/siswa-smkn-4-tasikmalaya-adu-inovasi-dan-kreativitas-di-expo-creanova/" target="_blank">
+              <p class="text-end">Senin 14 Januari 2025</p>
+              <h5 class="text-center mt-1">Puncak Perayaan Milad Ke-10 Universitas Muhammadiyah Tasikmalaya: Momen Istimewa Bertabur Kehormatan</h5>
+              <a href="https://www.umtas.ac.id/berita/puncak-perayaan-milad-ke-10-universitas-muhammadiyah-tasikmalaya-momen-istimewa-bertabur-kehormatan.html" target="_blank">
                 <p class="mt-4">Baca Selengkapnya <i class="bi bi-arrow-right-circle text-black"></i></p>
               </a>
             </div>
@@ -53,11 +53,11 @@
         <!-- Berita 4 -->
         <div class="col-12 col-sm-10 col-md-6 col-lg-5 mb-4">
           <div class="card bg-light rounded-4 h-100">
-            <img src="~/assets/img/gambar-2.jpg" class="card-img-top p-2 rounded-4" alt="img-artikel" />
+            <img src="~/assets/img/juara.jpg" class="card-img-top p-2 rounded-4" alt="img-artikel" />
             <div class="card-body">
-              <p class="text-end">Kamis, 2 Mar 2023</p>
-              <h5 class="text-center mt-1">Sinergi Bagi Negeri, DAM Kerjasama dengan SMKN 4 Tasikmalaya Terapkan KTBSM Sepeda Motor Astra Honda</h5>
-              <a href="https://jabar.tribunnews.com/2023/03/02/sinergi-bagi-negeri-dam-kerjasama-dengan-smkn-4-tasikmalaya-terapkan-ktbsm-sepeda-motor-astra-honda" target="_blank">
+              <p class="text-end">Kamis, 7 februari 2025</p>
+              <h5 class="text-center mt-1">UMTAS Raih Peringkat 1 di Tasikmalaya, 5 PTS se-Jawa Barat, dan 6 PTMA se-Indonesia</h5>
+              <a href="https://www.umtas.ac.id/berita/umtas-raih-peringkat-1-di-tasikmalaya-5-pts-se-jawa-barat-dan-6-ptma-se-indonesia.html" target="_blank">
                 <p class="mt-4">Baca Selengkapnya <i class="bi bi-arrow-right-circle text-black"></i></p>
               </a>
             </div>
